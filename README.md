@@ -3,8 +3,6 @@
 - Flask app which displays Twitter hashtag link list in browser.
 - Python 3, Flask, Jinja
 
-![screen capture](screen_capture.png)
-
 ## Tested Using...
 
 - Linux 5.3.0

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>
+    MemeLinks | Crypto
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
+        rel="stylesheet">
+  <style type="text/css">
+  body {
+    font-family: 'Special Elite', cursive;
+  }
+  h2 {
+    background-color: #7FB3D5;
+    border: 1px solid black;
+    line-height: 1.6;
+    width: 15%;
+    text-align: center;
+    box-shadow: 5px 5px 5px #888;
+  }
+  ul {
+    list-style-type: none;
+  }
+  li {
+    line-height: 1.2;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>
+      MemeLinks
+    </h2>
+    <h3>
+      Crypto Hashtags
+    </h3>
+  </header>
+  <section>
+    <ul>
+      {% for h1 in crypto_hash %}
+      <li><a href="{{ dict_hash[h1] }}", target="_blank">#{{ h1 }}</a></li>
+      {% endfor %}
+    </ul>
+    <ul>
+      {% for h2 in crypto_fin %}
+      <li><a href="{{ dict_fin[h2] }}", target="_blank">${{ h2 }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+</body>
+</html>
