@@ -133,3 +133,5 @@ Modify hashtag lists to suit specific [engagements campaigns](https://business.t
 ## Financial Hashtags
 
 Two looping structures generate the crypto links; one for each prefix involved: `$` and `#`.
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R72LISM)
